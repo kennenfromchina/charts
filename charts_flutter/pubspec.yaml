@@ -16,17 +16,17 @@ dependencies:
   charts_common: ^0.12.0
   # charts_common:
   #   path: ../charts_common/
-  collection: ^1.14.5
+  collection:
   flutter:
     sdk: flutter
-  intl: ">=0.15.2 < 0.18.0"
-  logging: ^1.0.2
-  meta: ^1.1.1
+  intl:
+  logging:
+  meta:
 
 
 dev_dependencies:
-  mockito: ^5.0.0
-  build_runner: ^1.11.0
+  mockito:
+  build_runner:
   flutter_test:
     sdk: flutter
-  test: ^1.3.0
+  test:

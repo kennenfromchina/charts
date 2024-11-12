@@ -33,7 +33,7 @@ class FakeBuildContext extends Fake implements BuildContext {
 class FakeGraphicsFactoryHelper extends Fake implements GraphicsFactoryHelper {
   double textScaleFactor;
 
-  FakeGraphicsFactoryHelper(this.textScaleFactor) {}
+  FakeGraphicsFactoryHelper(this.textScaleFactor);
 
   @override
   double getTextScaleFactorOf(BuildContext context) => textScaleFactor;
