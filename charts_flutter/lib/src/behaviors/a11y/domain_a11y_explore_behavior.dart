@@ -110,7 +110,7 @@ class DomainA11yExploreBehavior<D> extends ChartBehavior<D> {
 
   @override
   int get hashCode {
-    return hashValues(minimumWidth, vocalizationCallback, exploreModeTrigger,
+    return Object.hash(minimumWidth, vocalizationCallback, exploreModeTrigger,
         exploreModeEnabledAnnouncement, exploreModeDisabledAnnouncement);
   }
 }

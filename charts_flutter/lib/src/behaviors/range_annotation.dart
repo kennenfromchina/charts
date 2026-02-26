@@ -115,7 +115,7 @@ class RangeAnnotation<D> extends ChartBehavior<D> {
   }
 
   @override
-  int get hashCode => hashValues(
+  int get hashCode => Object.hash(
       annotations,
       defaultColor,
       extendAxis,

@@ -275,7 +275,7 @@ class DatumLegend<D> extends ChartBehavior<D> {
 
   @override
   int get hashCode {
-    return hashValues(
+    return Object.hash(
         selectionModelType,
         contentBuilder,
         position,
