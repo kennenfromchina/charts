@@ -4,12 +4,12 @@ description: A common library for charting packages.
 homepage: https://github.com/google/charts
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'  # Flutter 3.22.0 对应的 Dart SDK 是 3.10.x，此约束适配
-  flutter: ">=3.22.0"
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
 
 dependencies:
   collection: ^1.14.5
-  intl: ">=0.15.2 < 0.18.0"
+  intl: ^0.20.2
   logging: ^1.0.2
   meta: ^1.1.1
   vector_math: ^2.0.8
